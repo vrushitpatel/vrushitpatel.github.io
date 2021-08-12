@@ -36,21 +36,43 @@ Extra
 
 
 01. Vertical Nav-bar Content ✅
-02. Home - Content
-03. About - Content
+02. Home - Content ----------
+03. About - Content ✅
 04. About - Resume Link PDF ✅
 05. About - Link Project Page ✅
-06. Skills - Check Once 
-07. Project - Content 
+06. Skills - Check Once ✅
+07. Project - Content ✅
 08. Project - Link Project Page ✅
 09. Red - Content ✅
 10. Red - 3 Photos ✅
-11. Contact - PHP Contact Form Mail
-12. Contact - Content
-13. Header Nav-Bar Content
-14. Project Page - Photos
-15. Project Page - Content
-16. Project Page - Link
-17. Software Intern Page
-18. Hackathon Page
-19. College Committee
+11. Contact - PHP Contact Form Mail ----------
+12. Contact - Content ✅
+13. Header Nav-Bar Content ✅
+14. Project Page - Photos ----------
+15. Project Page - Content ✅
+16. Project Page - Link ✅
+17. Software Intern Page ----------
+18. Hackathon Page ----------
+19. College Committee ----------
+20. Coming Soon Page ✅
+21. PreLoader ✅
+22. Red Page Animation ✅
+
+
+
+Projects:
+  MedBay ✅
+  Hack-n-Code 
+  Self Driving
+  Bar Stock Exchange ✅
+  Zomato ✅
+  OS Project
+  Whatsinthemenu ✅ ----------
+  HV Design ✅
+
+
+Skills: 
+  Bootstrap
+  Wordpress
+
+
