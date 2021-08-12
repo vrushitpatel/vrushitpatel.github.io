@@ -1,0 +1,204 @@
+main {
+  background-image: -moz-radial-gradient(
+    50% 50%,
+    circle closest-side,
+    rgba(246, 63, 91, 0.8) 0%,
+    #f63f5b 100%
+  );
+
+  background-image: -webkit-radial-gradient(
+    50% 50%,
+    circle closest-side,
+    rgba(246, 63, 91, 0.8) 0%,
+    #f63f5b 100%
+  );
+
+  background-image: -ms-radial-gradient(
+    50% 50%,
+    circle closest-side,
+    rgba(246, 63, 91, 0.8) 0%,
+    #f63f5b 100%
+  );
+}
+
+header {
+  padding: 40px 50px;
+  position: absolute;
+  width: calc(100% - 100px);
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+  color: var(--white);
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#three {
+  position: relative;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+#three .floatingObj:nth-child(2) {
+  left: 87%;
+  top: 16%;
+}
+
+#three .floatingObj:nth-child(3) {
+  left: 8%;
+  top: 20%;
+}
+
+#three .floatingObj:nth-child(4) {
+  left: 10%;
+  top: 84%;
+}
+
+#three h1 {
+  font-size: 60px;
+  margin: 80px 0 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  position: relative;
+}
+
+#three .container .grids {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#three .container .grids {
+  width: 1200px;
+  margin: 60px auto 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+}
+
+#three .container .box {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  margin: 50px 20px 100px;
+  background-color: white;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+#three .container .box img {
+  width: 100%;
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#three .container .box .skillPhoto {
+  position: absolute;
+  top: 75px;
+  left: -5px;
+  width: 85%;
+  margin-left: 9%;
+  border-radius: 20px;
+  box-shadow: 7px 7px 5px rgba(70, 70, 70, 0.212);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 2em;
+  background-color: #ff0032;
+  text-shadow: 3px 3px #3636362d;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 70px);
+  transition: 0.5s;
+  opacity: 1;
+  z-index: 20;
+  /* filter: drop-shadow(0 20px 15px rgba(136, 142, 160, 0.4)); */
+}
+
+#three .container .box:hover .skillPhoto {
+  opacity: 1;
+}
+
+#three .container .box .buy {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  bottom: 15px;
+  right: 15px;
+  text-align: right;
+  color: #ffffff;
+  background-color: #ff0032;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  padding: 7px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  z-index: 10;
+}
+
+#three .container .box:hover .buy {
+  width: 100px;
+}
+
+#three .container .box .buy img {
+  width: 25px;
+  height: 25px;
+}
+
+#three .container .box:hover .buy {
+  opacity: 1;
+}
+
+#three .container .box .buy::before {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  content: "More info";
+  color: white;
+  opacity: 0;
+}
+
+#three .container .box:hover .buy::before {
+  opacity: 1;
+  left: 17px;
+}
+
+#three .container .box .title {
+  position: absolute;
+  top: 32%;
+  left: 32%;
+  max-width: 300px;
+  font-size: 1.7em;
+  transition: 0.5s;
+  z-index: 11;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(-50%, -50%, 0px);
+}
+
+#three .container .box .para {
+  position: absolute;
+  top: 52%;
+  left: 52%;
+  width: 300px;
+  transition: 0.5s;
+  z-index: 11;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(-50%, -50%, 0px);
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/8c86c20e06.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Coming Soon</title>
+
+  <style>
+    .homePage .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .homePage .content h1 {
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-weight: 900;
+      font-size: 120px;
+    }
+  </style>
+</head>
+
+<body class="project">
+  <!-- --------------- -->
+
+  <script src="./js/onscroll.js"></script>
+
+  <div class="backTop" id="backTop">
+    <div>
+      <a href="#"><span><img src="./images/upload.png" alt="" /></span></a>
+    </div>
+  </div>
+
+  <!-- --------------- -->
+
+  <!-- <section class="preloader">
+      <div class="loader1"></div>
+      <div class="count"></div>
+    </section>
+
+    <script>
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+
+      $(document).ready(function () {
+        var body = document.getElementsByTagName("body");
+        $(this).scrollTop(0);
+        body[0].setAttribute("style", "overflow-y: hidden !important;");
+        var url = window.location.href;
+        var lastPart = url.lastIndexOf("#");
+        console.log(lastPart);
+        if (lastPart != -1) {
+          $(".loader1").css("display", "none");
+          $(".preloader").css("display", "none");
+          body[0].setAttribute("style", "overflow-y: scroll !important;");
+        } else {
+          loading();
+        }
+        function loading() {
+          var count = 0;
+          var counter = setInterval(function () {
+            if (count < 101) {
+              $(".count").text(count + "%");
+              $(".loader1").css("width", count + "%");
+              count++;
+            } else {
+              clearInterval(counter);
+              setInterval(
+                body[0].setAttribute("style", "overflow-y: scroll !important;"),
+                10
+              );
+            }
+          }, 40);
+        }
+      });
+    </script> -->
+
+  <!-- --------------- -->
+
+  <div class="vertHeader">
+    <div class="illustration">
+      <span class="outer">
+        <span class="inner" id="innerBar">
+          <span class="circle"></span>
+        </span>
+      </span>
+    </div>
+    <div class="content">
+      <ul>
+        <li>
+          <a href="#comingSoon" class="vertLI"><span>01.</span> Coming Soon <span class="underline"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <h1>LOGO</h1>
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li class="vertLI">
+          <a href="./index.html">
+            <span>01.</span>Home <span class="underline"></span>
+          </a>
+        </li>
+        <li class="vertLI">
+          <a href="./project.html">
+            <span>02.</span>Projects <span class="underline"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="social" id="social">
+      <a href="https://linkedin.com/in/vrushit-patel" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/Vrushit7506" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:vrushit7506@gmail.com" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="far fa-envelope"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- --------------- -->
+
+  <div class="homePage">
+    <div class="content">
+      <br /><br />
+      <h1>
+        Coming Soon
+      </h1>
+      <br />
+    </div>
+
+  </div>
+  <!-- --------------- -->
+  <!-- --------------- -->
+  <!-- --------------- -->
+</body>
+
+</html>

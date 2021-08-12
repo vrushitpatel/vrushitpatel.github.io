@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/8c86c20e06.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Layout</title>
+</head>
+
+<body class="project">
+  <!-- --------------- -->
+
+  <script src="./js/onscroll.js"></script>
+
+  <div class="backTop" id="backTop">
+    <div>
+      <a href="#"><span><img src="./images/upload.png" alt="" /></span></a>
+    </div>
+  </div>
+
+  <!-- --------------- -->
+
+  <!-- <section class="preloader">
+      <div class="loader1"></div>
+      <div class="count"></div>
+    </section>
+
+    <script>
+      window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      };
+
+      $(document).ready(function () {
+        var body = document.getElementsByTagName("body");
+        $(this).scrollTop(0);
+        body[0].setAttribute("style", "overflow-y: hidden !important;");
+        var url = window.location.href;
+        var lastPart = url.lastIndexOf("#");
+        console.log(lastPart);
+        if (lastPart != -1) {
+          $(".loader1").css("display", "none");
+          $(".preloader").css("display", "none");
+          body[0].setAttribute("style", "overflow-y: scroll !important;");
+        } else {
+          loading();
+        }
+        function loading() {
+          var count = 0;
+          var counter = setInterval(function () {
+            if (count < 101) {
+              $(".count").text(count + "%");
+              $(".loader1").css("width", count + "%");
+              count++;
+            } else {
+              clearInterval(counter);
+              setInterval(
+                body[0].setAttribute("style", "overflow-y: scroll !important;"),
+                10
+              );
+            }
+          }, 40);
+        }
+      });
+    </script> -->
+
+  <!-- --------------- -->
+
+  <div class="vertHeader">
+    <div class="illustration">
+      <span class="outer">
+        <span class="inner" id="innerBar">
+          <span class="circle"></span>
+        </span>
+      </span>
+    </div>
+    <div class="content">
+      <ul>
+        <li>
+          <a href="#introduction" class="vertLI"><span>01.</span> Introduction <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="vertLI"><span>02.</span> About <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#unique" class="vertLI">
+            <span>03.</span> Unique Problems To Solve
+            <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#design" class="vertLI">
+            <span>04.</span> The Making Process
+            <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#conclusion" class="vertLI"><span>05.</span> Conclusion <span class="underline"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header>
+    <div class="logo">
+      <a href="#">
+        <h1>LOGO</h1>
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li class="vertLI">
+          <a href="./index.html">
+            <span>01.</span>Home <span class="underline"></span>
+          </a>
+        </li>
+        <li class="vertLI">
+          <a href="./project.html">
+            <span>02.</span>Projects <span class="underline"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="social" id="social">
+      <a href="https://linkedin.com/in/vrushit-patel" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/Vrushit7506" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:vrushit7506@gmail.com" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="far fa-envelope"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- --------------- -->
+
+  <div class="homePage"></div>
+  <main class="partOne">
+    <!-- --------------- -->
+
+    <div class="header" id="introduction">
+      <h4>Vrushit Patel</h4>
+      <br /><br />
+      <h1>
+        Safegauarding first responders with next-level location services
+      </h1>
+      <br />
+    </div>
+    <div class="introcontent">
+      <p class="intropara">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ratione
+        eveniet maxime quod. Nam cupiditate rerum sint. Ullam eaque aut et
+        ratione illum molestias ad animi nemo vero repudiandae repellat ipsam
+        praesentium non at voluptatibus, sit velit laboriosam facilis soluta.
+      </p>
+      <div class="loader">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+        <span style="--i: 4"></span>
+        <span style="--i: 5"></span>
+        <span style="--i: 6"></span>
+        <span style="--i: 7"></span>
+        <span style="--i: 8"></span>
+        <span style="--i: 9"></span>
+        <span style="--i: 10"></span>
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 17"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 20"></span>
+        <div class="rocket"></div>
+      </div>
+    </div>
+    <div class="introGrid">
+      <div class="">
+        <h4>Domain</h4>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </div>
+      <div class="">
+        <h4>Tools Used</h4>
+        <ul>
+          <li>Lorem.</li>
+          <li>Lorem.</li>
+          <li>Communication.</li>
+          <li>Lorem.</li>
+          <li>Lorem.</li>
+        </ul>
+      </div>
+      <div class="">
+        <h4>Month-Year</h4>
+        <ul>
+          <li>May - 2019.</li>
+        </ul>
+        <br />
+        <br />
+        <h4>Timeline</h4>
+        <ul>
+          <li>5 months.</li>
+        </ul>
+      </div>
+      <div class="">
+        <h4>Project Type</h4>
+        <ul>
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+        </ul>
+      </div>
+
+      <img class="rotate3D" src="./images/3dRotate1.png" alt="" />
+    </div>
+    <br />
+    <br />
+    <div class="quote">
+      <h2>
+        <img src="./images/Quotes.png" alt="" />
+        It’s the kind of system that can provide emergency services with
+        critical information, such as the number of people located on a
+        particular floor. It’s this specific use case that NextNav is betting
+        on.
+      </h2>
+      <br />
+      <br />
+      <br />
+      <h3>
+        <strong>- TechCrunch</strong><br /><span></span>
+        “NextNav raises $120M to deploy its indoor positioning tech to find
+        people in skyscrapers”
+      </h3>
+    </div>
+
+    <!-- --------------- -->
+
+    <div class="aboutPage" id="about">
+      <h1>About Project Name</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nisi
+        eaque et officiis maxime quasi sapiente inventore quas quia alias,
+        debitis tempora laudantium exercitationem, adipisci eveniet dolor
+        rerum unde? Suscipit, quaerat doloremque, ea harum voluptatibus quas
+        corrupti distinctio perspiciatis culpa eius odio laboriosam nam
+        facilis omnis excepturi, molestias consequatur aspernatur! Quidem sunt
+        nam explicabo nulla. Est, aliquam magnam perferendis dignissimos
+        corrupti qui reiciendis maiores voluptatibus, vero sapiente ipsa
+        placeat suscipit corporis. Cupiditate fugit nobis rem ea perspiciatis
+        sed voluptatum vel quo eveniet saepe obcaecati ullam dignissimos sint
+        quisquam magni nesciunt, aspernatur repellendus odit neque dolores
+        quod eius, reiciendis excepturi ratione! Dolorum atque inventore
+        beatae minus eum laboriosam, temporibus enim earum nihil cum, eius
+        consectetur mollitia ullam, doloremque corporis magnam. Ducimus
+        tenetur perferendis magnam eveniet voluptate aliquam voluptatibus quam
+        perspiciatis. Non aut ratione excepturi iure minus earum perspiciatis
+        reprehenderit quae at ex dolorum sit autem facere nemo quis, fugit
+        sunt provident. Ipsa quaerat quae esse, velit reprehenderit assumenda
+        officia dolore, natus aut officiis laboriosam, quis quas! Praesentium
+        distinctio totam cupiditate cumque maxime illo veniam laborum, odio
+        soluta deleniti! Molestiae natus ad fuga cupiditate eveniet omnis
+        dolorem, neque vero. Numquam id possimus, aperiam ullam asperiores
+        saepe reiciendis doloribus blanditiis quis minus odit.
+      </p>
+
+      <img class="aboutIMG" src="./images/About.jpg" alt="" />
+      <br />
+      <br />
+      <div class="aboutGrid">
+        <div class="left">
+          <h1>Objective</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In quas
+            dolores, ullam possimus dolorum officiis explicabo totam, veniam
+            blanditiis inventore fugit iste sapiente libero nisi? Tempore, ad
+            autem laborum deserunt eveniet itaque ea nesciunt natus non
+            necessitatibus adipisci nostrum ipsa, ducimus magni obcaecati
+            ipsam, sequi et! Sit delectus repudiandae optio!
+          </p>
+        </div>
+        <div class="right">
+          <h4>Tools Used</h4>
+          <br />
+          <ul>
+            <li>Lorem.</li>
+            <li>Lorem.</li>
+            <li>Communication.</li>
+            <li>Lorem.</li>
+            <li>Lorem.</li>
+          </ul>
+          <br />
+          <br />
+          <h4>Timeline</h4>
+          <br />
+          <ul>
+            <li>5 months.</li>
+          </ul>
+        </div>
+
+        <ul class="platformLOGO">
+          <li>
+            <a href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fas fa-globe-asia"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fa fa-whatsapp"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fas fa-pizza-slice"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- --------------- -->
+
+    <div class="uniquePage" id="unique">
+      <h1>Unique Problems To Solve</h1>
+      <div class="uniqueGrid">
+        <div></div>
+        <div class="block">
+          <h3>Synthesizing streams of information</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+            consequatur ducimus, corrupti sequi soluta, distinctio commodi sit
+            ipsam assumenda cum molestiae culpa, magni eligendi repellendus!
+          </p>
+        </div>
+        <div class="block">
+          <h3>Synthesizing streams of information</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+            consequatur ducimus, corrupti sequi soluta, distinctio commodi sit
+            ipsam assumenda cum molestiae culpa, magni eligendi repellendus!
+          </p>
+        </div>
+        <div class="block">
+          <h3>Synthesizing streams of information</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+            consequatur ducimus, corrupti sequi soluta, distinctio commodi sit
+            ipsam assumenda cum molestiae culpa, magni eligendi repellendus!
+          </p>
+        </div>
+        <div class="block">
+          <h3>Synthesizing streams of information</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+            consequatur ducimus, corrupti sequi soluta, distinctio commodi sit
+            ipsam assumenda cum molestiae culpa, magni eligendi repellendus!
+          </p>
+        </div>
+        <div class="block">
+          <h3>Synthesizing streams of information</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+            consequatur ducimus, corrupti sequi soluta, distinctio commodi sit
+            ipsam assumenda cum molestiae culpa, magni eligendi repellendus!
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- --------------- -->
+
+  <main class="partTwo" id="partTwo">
+    <div class="designProcess" id="design">
+      <h1>The Design Process</h1>
+
+      <!-- --------------- -->
+      <!-- ------- Image Div ------- -->
+      <div class="imageDIV">
+        <img src="./images/Design.jpg" alt="" />
+        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+          nam enim iusto magnam fugit tenetur?</span>
+      </div>
+
+      <!-- --------------- -->
+      <!-- ------- Content Div ------- -->
+      <div class="contentDIV">
+        <h3>Real world user insights</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+          ipsam itaque, autem laborum error voluptate doloribus labore
+          perferendis cumque facere odit accusantium, eaque assumenda atque.
+          Delectus, facere sint veritatis doloremque fugiat placeat
+          reprehenderit inventore natus accusamus, illum, officiis vitae? Esse
+          autem distinctio tempore asperiores inventore in voluptate earum a.
+          Vero provident eveniet mollitia dolores reprehenderit dolorem sequi
+          sint voluptatum praesentium! Tenetur, debitis atque nobis quidem
+          dignissimos culpa corrupti beatae quisquam odio non quas laborum
+          voluptate autem quia fugiat eum molestias ullam totam blanditiis
+          minus illum corporis deserunt? Sapiente, rerum perspiciatis odio
+          maiores iusto laudantium, quod esse quisquam consequatur, at
+          voluptas.
+        </p>
+      </div>
+
+      <!-- --------------- -->
+      <!-- -------Image - Content Divide ------- -->
+      <div class="divideDIV">
+        <div class="imageDIV">
+          <img src="./images/Design.jpg" alt="" />
+          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Molestiae nam enim iusto magnam fugit tenetur?</span>
+        </div>
+
+        <!-- --------------- -->
+
+        <div class="contentDIV">
+          <h3>Real world user insights</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            ipsam itaque, autem laborum error voluptate doloribus labore
+            perferendis cumque facere odit accusantium, eaque assumenda atque.
+            Delectus, facere sint veritatis doloremque fugiat placeat
+            reprehenderit inventore natus accusamus, illum, officiis vitae?
+            Esse autem distinctio tempore asperiores inventore in voluptate
+            earum a. Vero provident eveniet mollitia dolores reprehenderit
+            dolorem sequi sint voluptatum praesentium! Tenetur, debitis atque
+            nobis quidem dignissimos culpa corrupti beatae quisquam odio non
+            quas laborum voluptate autem quia fugiat eum molestias ullam totam
+            blanditiis minus illum corporis deserunt? Sapiente, rerum
+            perspiciatis odio maiores iusto laudantium, quod esse quisquam
+            consequatur, at voluptas.
+          </p>
+        </div>
+      </div>
+
+      <!-- --------------- -->
+      <!-- ------- Content - Image Divide ------- -->
+      <div class="divideDIV">
+        <div class="contentDIV">
+          <h3>Real world user insights</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            ipsam itaque, autem laborum error voluptate doloribus labore
+            perferendis cumque facere odit accusantium, eaque assumenda atque.
+            Delectus, facere sint veritatis doloremque fugiat placeat
+            reprehenderit inventore natus accusamus, illum, officiis vitae?
+            Esse autem distinctio tempore asperiores inventore in voluptate
+            earum a. Vero provident eveniet mollitia dolores reprehenderit
+            dolorem sequi sint voluptatum praesentium! Tenetur, debitis atque
+            nobis quidem dignissimos culpa corrupti beatae quisquam odio non
+            quas laborum voluptate autem quia fugiat eum molestias ullam totam
+            blanditiis minus illum corporis deserunt? Sapiente, rerum
+            perspiciatis odio maiores iusto laudantium, quod esse quisquam
+            consequatur, at voluptas.
+          </p>
+        </div>
+
+        <!-- --------------- -->
+
+        <div class="imageDIV">
+          <img src="./images/Design.jpg" alt="" />
+          <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Molestiae nam enim iusto magnam fugit tenetur?</span>
+        </div>
+      </div>
+
+      <!-- --------------- -->
+    </div>
+  </main>
+
+  <!-- --------------- -->
+
+  <main class="partOne" style="padding-top: 0">
+    <!-- --------------- -->
+
+    <div class="conclusion" id="conclusion">
+      <h1>The Results</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+        incidunt eius nam voluptatibus dolores fuga porro deserunt. Non dicta
+        dignissimos excepturi laborum quod quasi asperiores accusantium,
+        aspernatur ab, consectetur earum minus id. Aspernatur explicabo
+        magnam, eius repellendus dicta quibusdam est quo iure nulla deserunt
+        architecto, fugit culpa dignissimos omnis a perferendis, animi
+        ducimus? Laborum odit rem odio dolorum voluptatibus similique voluptas
+        atque, consequatur sit quae! Ex quidem adipisci provident ipsa.
+      </p>
+      <img class="rotate3D" src="./images/3dRotate1.png" alt="" />
+    </div>
+
+    <!-- --------------- -->
+
+    <div class="footer">
+      <div class="contact">
+        <h2>Have a mission-critical problem that needs solving?</h2>
+        <br />
+        <a href=""><span><img src="./images/right-arrow1.png" alt="" /></span>Contact
+          Us</a>
+      </div>
+
+      <div class="seemore">
+        <div class="left">
+          <h1>See More</h1>
+          <br />
+          <a href=""><img src="./images/see-more.jpg" alt="" /></a>
+        </div>
+        <div class="right">
+          <h3>Projects</h3>
+          <br />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Laudantium ullam nam vero laboriosam at similique harum quo
+            eveniet consequuntur ea.
+          </p>
+          <br />
+          <a href="">More Projects <span></span></a>
+          <br />
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="smallScreen">
+    <h2>LOGO</h2>
+    <div class="div">
+      <h3>
+        This Website Is Intended To Be Used On A Device With A Larger
+        Screen.<i class="fas fa-desktop"></i>
+      </h3>
+    </div>
+    <div class="footer"></div>
+  </section>
+
+  <!-- --------------- -->
+</body>
+
+</html>

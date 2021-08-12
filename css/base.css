@@ -1,0 +1,477 @@
+/* This CSS is for common Elements Like: 
+    Bottom Nav-Bar, Background, Body, Loader,
+    All Headers, etc. */
+
+/* em - For Padding, Margin, Width & Height
+   rem - For Font/ Text Styling */
+
+/* 10vh - header 8vh - Footer */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+/* font-family: 'IBM Plex Mono', monospace; */
+
+@import url("https://fonts.googleapis.com/css2?family=Condiment&display=swap");
+
+/* font-family: 'Condiment', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+/* font-family: 'Kaushan Script', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+/* font-family: 'Dela Gothic One', cursive; */
+
+@keyframes liFade {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes loaderOutAni {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) translateY(0vh);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(-100vh);
+    display: none;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSlide1 {
+  0% {
+    transform: rotate(0) translateX(100px) scale(1.2);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-25deg) translateX(-20px) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSlide2 {
+  0% {
+    transform: rotate(0) translateX(100px) scale(1.2);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-15deg) translateX(30px) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSlide3 {
+  0% {
+    transform: rotate(0) translateX(150px) scale(1.2);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-5deg) translateX(100px) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInSlide4 {
+  0% {
+    transform: rotate(0) translateX(300px) scale(1.2);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(150%) translateY(100px) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+:root {
+  --orange: #ef6848;
+  --black: #181818;
+  --darkGray: #313131;
+  --white: #ffffff;
+  --lightOrange: #ff9c51;
+  --yellowOrange: #ffb650;
+
+  /* To Use Variables Do This : var(--white) */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  cursor: none !important;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  cursor: none;
+}
+
+body {
+  /*FireFox*/
+  scrollbar-width: none;
+  /*IE10+*/
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+body::-webkit-scrollbar {
+  /*Chrome, Safari, Edge*/
+  display: none;
+}
+
+.floatingObj,
+.floatingObj1 {
+  position: absolute;
+  width: auto;
+  height: 125px;
+  z-index: 2;
+}
+
+.fadingUp {
+  animation: fadeUp 1s ease-in-out forwards;
+}
+
+.fadingOut {
+  animation: fadeOut 1.5s ease-in-out forwards;
+}
+
+.fadingInSlide1 {
+  animation: fadeInSlide1 1.5s ease-in-out forwards;
+}
+
+.fadingInSlide2 {
+  animation: fadeInSlide2 1.5s ease-in-out forwards;
+}
+
+.fadingInSlide3 {
+  animation: fadeInSlide3 1.5s ease-in-out forwards;
+}
+
+.fadingInSlide4 {
+  animation: fadeInSlide4 1.5s ease-in-out forwards;
+}
+
+/* ========================== */
+/* ========= Cursor ========= */
+/* ========================== */
+
+.cursor {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--white);
+  pointer-events: none;
+  transition: all 100ms;
+  z-index: 500;
+  top: -50px;
+  left: -50px;
+}
+
+.cursor-inner {
+  width: 20px;
+  height: 20px;
+  background: var(--white);
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s, height 0.3s;
+  z-index: 500;
+  top: -50px;
+  left: -50px;
+}
+
+.click {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+/* ========================== */
+/* ========= Header ========= */
+/* ========================== */
+
+header {
+  padding: 40px 50px;
+  position: fixed;
+  width: calc(100% - 100px);
+  display: flex;
+  justify-content: space-between;
+  z-index: 5;
+  color: var(--white);
+}
+
+header .logo h1 {
+  margin: 0;
+  font-family: "Condiment", cursive;
+  color: var(--white);
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+header nav ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+header nav ul li::after {
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: -5px;
+  left: 10%;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+header nav ul li:hover::after {
+  width: 80%;
+}
+
+header nav ul li.active::after {
+  width: 80%;
+}
+
+/* ========================== */
+/* ====== Vertical Nav ====== */
+/* ========================== */
+
+.vert-nav {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 96.5%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+
+.vert-nav ul {
+  list-style: inside;
+  padding: 0;
+  margin: 0;
+}
+
+.vert-nav ul li {
+  display: block;
+  width: auto !important;
+  height: auto !important;
+  margin: 0px 0px 15px;
+  position: relative;
+}
+
+.vert-nav ul li a {
+  display: block;
+  position: relative;
+  z-index: 1;
+  cursor: none;
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.vert-nav ul li a::before {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  content: "";
+  top: 70.5%;
+  left: 69%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.vert-nav ul li a::after {
+  width: 120%;
+  height: 120%;
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 6px #00000047;
+  border-radius: 50%;
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: scale(0.7);
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+.vert-nav ul li a:hover:after {
+  transform: scale(1);
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.vert-nav ul li a.active::before {
+  background: rgb(255, 255, 255);
+}
+
+.vert-nav ul li a.active:after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.vert-nav ul li a span::before {
+  content: attr(data-name);
+  position: absolute;
+  text-align: right;
+  top: 5px;
+  right: -50px;
+  height: 1em;
+  width: 100px;
+  margin-right: 10px;
+  color: var(--white);
+  opacity: 0;
+  font-size: 0.8em;
+  transition: all 0.3s ease-in-out;
+}
+
+.vert-nav ul li a:hover span::before {
+  right: 20px;
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.vert-nav ul li a.active span::before,
+.vert-nav ul li a.active:hover span::before {
+  right: 20px !important;
+  opacity: 1;
+  color: var(--white) !important;
+  top: 1px !important;
+  font-size: 1em !important;
+  animation: liFade 1s ease-in-out 4s;
+  animation-fill-mode: forwards;
+}
+
+.navbtn {
+  position: fixed;
+  z-index: 100;
+  top: 92%;
+  left: calc(100% - 130px);
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.navbtn button {
+  position: relative;
+  color: var(--white);
+  cursor: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 1em;
+}
+
+.navbtn button::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background-color: var(--white);
+  z-index: 5;
+  transition: all 0.5s;
+}
+
+.navbtn button:hover::after {
+  width: 100%;
+}
+
+.navbtn span {
+  padding: 0 10px;
+  color: var(--white);
+  cursor: default;
+}
+
+/* ========================== */
+/* ======= Pre Loader ======= */
+/* ========================== */
+
+#one::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/Loading.jpg");
+  background-size: cover;
+  z-index: 1000;
+  animation: loaderOutAni 1.5s 1s ease-in-out forwards;
+}

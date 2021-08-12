@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vrushit Patel</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/project.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>V P</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="./index.html"> Home </a></li>
+        <li class="active"><a href=""> My Projects </a></li>
+        <li><a href="./resume.html"> My Resume </a></li>
+        <li><a href=""> Contact </a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-inner"></div>
+
+  <!-- ============================================================= -->
+
+  <main id="mainSlide">
+
+    <!-- ============================================================= -->
+
+    <div class="slides" id="three">
+      <div class="container">
+        <h1>My Projects</h1>
+        <div class="grids">
+          <div class="box">
+            <img src="./images/Project Grid.jpg" alt="">
+            <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
+            <span class="skillPhoto">Project Name</span>
+            <!-- <img src="./images/webdesign.png" alt="" class="skillPhoto"> -->
+          </div>
+          <div class="box">
+            <img src="./images/Projects/bse.png" alt="">
+            <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
+            <span class="skillPhoto">Project Name</span>
+            <!-- <img src="./images/webdesign.png" alt="" class="skillPhoto"> -->
+          </div>
+          <div class="box">
+            <img src="./images/Projects/medbay.jpg" alt="">
+            <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
+            <span class="skillPhoto">Project Name</span>
+            <!-- <img src="./images/webdesign.png" alt="" class="skillPhoto"> -->
+          </div>
+          <div class="box">
+            <img src="./images/Projects/whatsinthemenu.jpg" alt="">
+            <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
+            <span class="skillPhoto">Project Name</span>
+            <!-- <img src="./images/webdesign.png" alt="" class="skillPhoto"> -->
+          </div>
+          <div class="box">
+            <img src="./images/Projects/hvdesigns.jpg" alt="">
+            <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
+            <span class="skillPhoto">Project Name</span>
+            <!-- <img src="./images/webdesign.png" alt="" class="skillPhoto"> -->
+          </div>
+          <div class="box">
+            <img src="./images/Projects/zomato.jpg" alt="">
+            <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
+            <span class="skillPhoto">Project Name</span>
+            <!-- <img src="./images/webdesign.png" alt="" class="skillPhoto"> -->
+          </div>
+        </div>
+      </div>
+      <img class="floatingObj" data-parallax="2" src="./images/Half Circle.png" alt="">
+      <img class="floatingObj" data-parallax="-2" src="./images/Cone3.png" alt="">
+      <img class="floatingObj" data-parallax="-2" src="./images/Circle2.png" alt="">
+    </div>
+
+    <!-- ============================================================= -->
+
+  </main>
+
+  <!-- ============================================================= -->
+
+  <footer>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="./js/vanilla-tilt.min.js"></script>
+  <script src="./js/features.js"></script>
+  <script src="./js/cursor.js"></script>
+
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+      max: 10,
+      speed: 300
+    });
+  </script>
+
+</body>
+
+</html>
