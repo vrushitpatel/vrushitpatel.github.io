@@ -462,7 +462,7 @@ header nav ul li.active::after {
 /* ======= Pre Loader ======= */
 /* ========================== */
 
-#one::before {
+/* #one::before {
   position: absolute;
   content: "";
   top: 50%;
@@ -473,5 +473,48 @@ header nav ul li.active::after {
   background-image: url("../images/Loading.jpg");
   background-size: cover;
   z-index: 1000;
-  animation: loaderOutAni 1.5s 1s ease-in-out forwards;
+  animation: loaderOutAni 1.5s 3s ease-in-out forwards;
+} */
+
+.preload {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: -moz-radial-gradient(
+    50% 50%,
+    circle closest-side,
+    #510b97e3 -250%,
+    #3e0d7e 100%
+  );
+
+  background-image: -webkit-radial-gradient(
+    50% 50%,
+    circle closest-side,
+    #510b97e3 -250%,
+    #3e0d7e 100%
+  );
+
+  background-image: -ms-radial-gradient(
+    50% 50%,
+    circle closest-side,
+    #510b97e3 -250%,
+    #3e0d7e 100%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 100;
+  transition: opacity 0.5s ease;
+}
+
+.preload img {
+  height: 100vh;
+}
+
+.preload-finish {
+  opacity: 0;
+  pointer-events: none;
 }
