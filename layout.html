@@ -29,48 +29,48 @@
 
   <!-- --------------- -->
 
-  <!-- <section class="preloader">
-      <div class="loader1"></div>
-      <div class="count"></div>
-    </section>
+  <section class="preloader">
+    <div class="loader1"></div>
+    <div class="count"></div>
+  </section>
 
-    <script>
-      window.onbeforeunload = function () {
-        window.scrollTo(0, 0);
-      };
+  <script>
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    };
 
-      $(document).ready(function () {
-        var body = document.getElementsByTagName("body");
-        $(this).scrollTop(0);
-        body[0].setAttribute("style", "overflow-y: hidden !important;");
-        var url = window.location.href;
-        var lastPart = url.lastIndexOf("#");
-        console.log(lastPart);
-        if (lastPart != -1) {
-          $(".loader1").css("display", "none");
-          $(".preloader").css("display", "none");
-          body[0].setAttribute("style", "overflow-y: scroll !important;");
-        } else {
-          loading();
-        }
-        function loading() {
-          var count = 0;
-          var counter = setInterval(function () {
-            if (count < 101) {
-              $(".count").text(count + "%");
-              $(".loader1").css("width", count + "%");
-              count++;
-            } else {
-              clearInterval(counter);
-              setInterval(
-                body[0].setAttribute("style", "overflow-y: scroll !important;"),
-                10
-              );
-            }
-          }, 40);
-        }
-      });
-    </script> -->
+    $(document).ready(function () {
+      var body = document.getElementsByTagName("body");
+      $(this).scrollTop(0);
+      body[0].setAttribute("style", "overflow-y: hidden !important;");
+      var url = window.location.href;
+      var lastPart = url.lastIndexOf("#");
+      console.log(lastPart);
+      if (lastPart != -1) {
+        $(".loader1").css("display", "none");
+        $(".preloader").css("display", "none");
+        body[0].setAttribute("style", "overflow-y: scroll !important;");
+      } else {
+        loading();
+      }
+      function loading() {
+        var count = 0;
+        var counter = setInterval(function () {
+          if (count < 101) {
+            $(".count").text(count + "%");
+            $(".loader1").css("width", count + "%");
+            count += 10;
+          } else {
+            clearInterval(counter);
+            setInterval(
+              body[0].setAttribute("style", "overflow-y: scroll !important;"),
+              10
+            );
+          }
+        }, 40);
+      }
+    });
+  </script>
 
   <!-- --------------- -->
 
@@ -114,7 +114,7 @@
   <header>
     <div class="logo">
       <a href="#">
-        <h1>LOGO</h1>
+        <h1>V P</h1>
       </a>
     </div>
     <nav>

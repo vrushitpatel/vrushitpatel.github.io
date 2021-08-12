@@ -81,8 +81,8 @@
   align-items: center;
 }
 
-#one .container .name h3,
-#one .container .name h4 {
+#one .container .name1 h3,
+#one .container .name1 h4 {
   font-family: "IBM Plex Mono", monospace;
   color: var(--white);
   font-weight: 500;
@@ -90,11 +90,11 @@
   margin: 0;
 }
 
-#one .container .name h4 {
+#one .container .name1 h4 {
   font-size: 26px;
 }
 
-#one .container .name h3 {
+#one .container .name1 h3 {
   display: inline-block;
   /* padding-right: 15px; */
   height: 42px;
@@ -116,7 +116,7 @@
   opacity: 0;
 }
 
-/* #one .container .name h1 {
+/* #one .container .name1 h1 {
   font-family: "Condiment", cursive;
   color: var(--white);
   font-size: 80px;
@@ -202,7 +202,7 @@
   animation: line-anime 2s ease forwards 6s;
 }
 
-#one .container .name p {
+#one .container .name1 p {
   color: var(--white);
   font-weight: 400;
   font-size: 20px;

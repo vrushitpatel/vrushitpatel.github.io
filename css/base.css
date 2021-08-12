@@ -313,7 +313,6 @@ header nav ul li.active::after {
   z-index: 100;
   top: 50%;
   left: 96.5%;
-  opacity: 0;
   transform: translate(-50%, -50%);
 }
 

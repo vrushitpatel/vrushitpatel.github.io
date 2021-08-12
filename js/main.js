@@ -18,10 +18,9 @@ var slide4Img2 = document.getElementById("slide4Img2");
 var slide4Img3 = document.getElementById("slide4Img3");
 var slide4Img4 = document.getElementById("slide4Img4");
 
-var slide5Heading = document.getElementById("slide5Heading");
-var slide5Box1 = document.getElementById("slide5Box1");
-var slide5Box2 = document.getElementById("slide5Box2");
-var slide5Box3 = document.getElementById("slide5Box3");
+// var slide5Heading = document.getElementById("slide5Heading");
+// var slide5Boxes = document.getElementsByClassName("slide5Boxes");
+// console.log(slide5Boxes);
 
 var slide6Heading = document.getElementById("slide6Heading");
 var slide6Para = document.getElementById("slide6Para");
@@ -65,14 +64,14 @@ function removeall() {
   slide4Img4.classList.remove("fadingInSlide4");
   slide4Img4.style.opacity = "0";
 
-  slide5Heading.classList.remove("fadingUp");
-  slide5Heading.style.opacity = "0";
-  slide5Box1.classList.remove("fadingUp");
-  slide5Box1.style.opacity = "0";
-  slide5Box2.classList.remove("fadingUp");
-  slide5Box2.style.opacity = "0";
-  slide5Box3.classList.remove("fadingUp");
-  slide5Box3.style.opacity = "0";
+  // slide5Heading.classList.remove("fadingUp");
+  // slide5Heading.style.opacity = "0";
+  // slide5Boxes[0].classList.remove("fadingUp");
+  // slide5Boxes[0].style.opacity = "0";
+  // slide5Boxes[1].classList.remove("fadingUp");
+  // slide5Boxes[1].style.opacity = "0";
+  // slide5Boxes[2].classList.remove("fadingUp");
+  // slide5Boxes[2].style.opacity = "0";
 
   slide6Heading.classList.remove("fadingUp");
   slide6Heading.style.opacity = "0";
@@ -111,7 +110,7 @@ function verticalNav(selected) {
     fourSlide();
   } else if (index == 4) {
     removeall();
-    fiveSlide();
+    // fiveSlide();
   } else if (index == 5) {
     removeall();
     sixSlide();
@@ -164,14 +163,14 @@ function fourSlide() {
 }
 
 function fiveSlide() {
-  slide5Heading.classList.add("fadingUp");
-  slide5Heading.style.animationDelay = "0.3s";
-  slide5Box1.classList.add("fadingUp");
-  slide5Box1.style.animationDelay = "1s";
-  slide5Box2.classList.add("fadingUp");
-  slide5Box2.style.animationDelay = "1.2s";
-  slide5Box3.classList.add("fadingUp");
-  slide5Box3.style.animationDelay = "1.4s";
+  // slide5Heading.classList.add("fadingUp");
+  // slide5Heading.style.animationDelay = "0.3s";
+  // slide5Boxes[0].classList.add("fadingUp");
+  // slide5Boxes[0].style.animationDelay = "1s";
+  // slide5Boxes[1].classList.add("fadingUp");
+  // slide5Boxes[1].style.animationDelay = "1.2s";
+  // slide5Boxes[2].classList.add("fadingUp");
+  // slide5Boxes[2].style.animationDelay = "1.4s";
 }
 
 function sixSlide() {

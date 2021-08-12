@@ -74,5 +74,11 @@ Projects:
 Skills: 
   Bootstrap
   Wordpress
+  Heroku
+  Git
+  Githib
+  Firebase
+  Figma
+  
 
 

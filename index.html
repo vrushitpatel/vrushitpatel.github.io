@@ -100,7 +100,7 @@
     <div class="slides" id="one">
       <div class="container">
         <div class="intro">
-          <div class="name">
+          <div class="name1">
             <div>
               <h4 id="slide1Heading">Hey, I'm</h4>
               <br>
@@ -312,29 +312,29 @@
       <div class="container">
         <h1 id="slide5Heading">More About Me</h1>
         <div class="grids">
-          <div class="box" id="slide5Box1">
-            <h3 class="title">Internship</h3>
-            <p class="para">Interned at Software Workshop Technologies Pvt. Ltd for 3 Months as OpenCV Software Intern:
-              Worked on OpenCV projects in
-              Python analyzing videos and photographs from CCTV, both recorded and real-time.</p>
-            <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
-            <img src="./images/corporate_design.png" alt="" class="skillPhoto">
+          <div class="box slide5Boxes">
+            <h3 class="title">Extra Curriculum</h3>
+            <p class="para">Led several development teams to create three separate custome theme websites for our
+              college festivals.</p>
+
+            <img src="./images/grafikdesign.png" alt="" class="skillPhoto">
           </div>
-          <div class="box" id="slide5Box2">
+          <div class="box slide5Boxes">
             <h3 class="title">Hack-n-Code</h3>
             <p class="para">Runner-up at IET Hack-n-Code 4.0 held in March of 2021. Developed an Django app to help
               educate family members about
               climate change.</p>
-            <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
+
             <img src="./images/webdesign.png" alt="" class="skillPhoto">
           </div>
-          <div class="box" id="slide5Box3">
-            <h3 class="title">Extra Curriculum</h3>
-            <p class="para">Led several development teams to create three separate custome theme websites for our
-              college festivals.
+          <div class="box slide5Boxes">
+            <h3 class="title">Internship</h3>
+            <p class="para">Interned at Software Workshop Technologies Pvt. Ltd for 3 Months as OpenCV Software Intern:
+              Worked on OpenCV projects in
+              Python analyzing videos and photographs from CCTV, both recorded and real-time.
             </p>
             <a href="./comingsoon.html" class="buy"><img src="./images/right-arrow.png" alt=""></a>
-            <img src="./images/grafikdesign.png" alt="" class="skillPhoto">
+            <img src="./images/corporate_design.png" alt="" class="skillPhoto">
           </div>
         </div>
       </div>
@@ -362,12 +362,13 @@
           </div>
         </div>
         <div class="form">
-          <form action="">
+          <form method="POST" class="contact-form">
             <input type="text" name="name" id="name1" placeholder="Your Name">
             <br>
             <input type="email" name="email" id="email1" placeholder="Your Email">
             <br>
-            <textarea name="msg" id="msg1" cols="10" rows="1" placeholder="Enter Your Message... "></textarea>
+            <input type="text" name="message" id="msg1" placeholder="Enter Your Message..">
+            <!-- <textarea name="message" id="msg1" cols="10" rows="1" placeholder="Enter Your Message... "></textarea> -->
             <br>
             <input type="submit" value="Submit Message" id="submit1">
           </form>
@@ -392,6 +393,8 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="./js/sendEmail.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/scroll.js"></script>
   <script src="./js/vanilla-tilt.min.js"></script>
