@@ -1,0 +1,753 @@
+@media only screen and (max-width: 1024px) {
+  .cursor {
+    display: none;
+  }
+
+  .cursor-inner {
+    display: none;
+  }
+
+  #one .container {
+    grid-template-columns: 55% 45%;
+    column-gap: 0%;
+  }
+
+  #three {
+    pointer-events: none;
+  }
+
+  #three .skillsH1 {
+    top: -10%;
+  }
+
+  #three .skillsMain {
+    height: 360px;
+    display: none;
+  }
+  #three .note {
+    top: 85%;
+    display: none;
+  }
+  #three .container .skillsType {
+    word-wrap: normal;
+    font-size: 3rem;
+    top: 27%;
+  }
+  #three .container .skillsType1 {
+    left: 95%;
+  }
+  #three .container .skillsType2 {
+    left: 5% !important;
+    transform: translate(-3%, -50%) !important;
+    z-index: 15 !important;
+  }
+
+  #three .container .skillDots .skillDot {
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    display: block;
+  }
+
+  #three .container .skillDots .skillDot img {
+    width: auto;
+    height: 60px;
+  }
+
+  #three .container .skillDots .skillDot span::after {
+    content: attr(data-name);
+    position: absolute;
+    top: 100%;
+    left: 380%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    font-size: 20px;
+    z-index: 15;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(1) {
+    top: 40%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(2) {
+    top: 55%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(3) {
+    top: 70%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(4) {
+    top: 85%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(5) {
+    top: 40%;
+    left: 35%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(6) {
+    top: 55%;
+    left: 35%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(7) {
+    top: 70%;
+    left: 35%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(8) {
+    top: 85%;
+    left: 35%;
+  }
+
+  /* ---------------------------------------------- */
+
+  #three .container .skillDots .skillDot:nth-child(9) {
+    top: 40%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(10) {
+    top: 55%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(11) {
+    top: 70%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(12) {
+    top: 85%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(13) {
+    top: 40%;
+    left: 85%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(14) {
+    top: 55%;
+    left: 85%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(15) {
+    top: 70%;
+    left: 85%;
+  }
+
+  #three .floatingObj:nth-child(2) {
+    display: none;
+  }
+  #three .floatingObj:nth-child(3) {
+    display: none;
+  }
+  #three .floatingObj:nth-child(4) {
+    display: none;
+  }
+
+  #three .container .skillDots .skillDot span {
+    background-color: transparent;
+  }
+
+  #four .container {
+    width: auto;
+    margin-top: -250px;
+    grid-template-columns: 100%;
+    row-gap: 50px;
+  }
+
+  #four .container .projectsPic {
+    margin-left: 10%;
+  }
+
+  #five .container .grids {
+    flex-direction: column;
+  }
+
+  #five .container .box {
+    width: 450px;
+    height: 250px;
+    transform: perspective(1000px) rotateX(-5.37deg) rotateY(8.76deg)
+      scale3d(1, 1, 1);
+  }
+
+  #five .container .box .skillPhoto {
+    display: none;
+  }
+
+  #five .container .box .para {
+    left: 48%;
+    width: 80%;
+  }
+
+  #five .container .box .title {
+    top: 20%;
+  }
+
+  #five .container .box:nth-child(3) .title {
+    top: 15%;
+  }
+
+  #five h1 {
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  #six .container .contact .details {
+    grid-template-columns: 100%;
+  }
+
+  #six .container .contact .details p:nth-child(2) {
+    grid-row: unset;
+    grid-column: unset;
+  }
+}
+
+/* 
+*
+*
+*
+*
+*
+*
+*/
+
+@media only screen and (max-width: 900px) {
+  #one .container {
+    grid-template-columns: 100%;
+    column-gap: 0%;
+  }
+  #one .container .name1 h3,
+  #one .container .name1 h4 {
+    font-size: 18px;
+  }
+
+  #one .container .name1 h4 {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  #one .container .name1 p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  #one .container .name1 h3 {
+    height: 24px;
+  }
+
+  #typer {
+    height: 24px;
+  }
+  #slide1SVG {
+    width: 80% !important;
+  }
+  #one .floatingObj:nth-child(2) {
+    left: 60%;
+    top: 10%;
+  }
+
+  #two .container {
+    width: 100%;
+    grid-template-columns: 100%;
+  }
+  #two .container .about .content {
+    margin-left: 20px;
+  }
+
+  #two .floatingObj:nth-child(3) {
+    height: 110px;
+    left: 185%;
+    top: 70%;
+  }
+
+  #two .floatingObj:nth-child(4) {
+    left: 5%;
+    top: 90%;
+  }
+
+  #two .container .photo .image {
+    margin-top: -120px;
+  }
+
+  #two .container .photo .image img {
+    height: 50%;
+  }
+
+  #two .container .about {
+    margin-top: -160px;
+  }
+
+  #two .container .about p {
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+  #two .container .about .buttons a {
+    font-size: 14px;
+  }
+
+  #three .container .skillsType {
+    word-wrap: normal;
+    font-size: 1.5rem;
+    top: 30%;
+  }
+
+  #three .container .skillDots .skillDot {
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    display: block;
+  }
+
+  #three .container .skillDots .skillDot span::after {
+    content: attr(data-name);
+    position: absolute;
+    top: 160%;
+    left: 320%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    font-size: 20px;
+    z-index: 15;
+  }
+
+  #three .container .skillsType1 {
+    left: 88%;
+  }
+
+  #three .container .skillsType2 {
+    left: -10% !important;
+  }
+
+  #five .container .box {
+    width: 40%;
+    height: 150px;
+    transform: none;
+    margin: 10px 0;
+  }
+
+  #five .container .box .skillPhoto {
+    display: none;
+  }
+
+  #five .container .box .para {
+    left: 48%;
+    width: 80%;
+    font-size: 12px;
+  }
+
+  #five .container .box .title {
+    top: 20%;
+    font-size: 16px;
+  }
+
+  #five .container .box:nth-child(3) .title {
+    top: 15%;
+  }
+
+  #five .container .grids {
+    margin-top: 30px;
+  }
+
+  #five .container .box .buy {
+    width: 15px;
+    height: 15px;
+    padding: 7px 15px;
+  }
+
+  #five .container .box .buy img {
+    width: 18px;
+    height: 18px;
+    margin-top: -15px;
+  }
+
+  #five h1 {
+    width: 100%;
+    margin-left: 20%;
+    font-size: 40px;
+  }
+
+  #five .floatingObj:nth-child(4),
+  #five .floatingObj:nth-child(3),
+  #five .floatingObj:nth-child(2),
+  #six .floatingObj:nth-child(3),
+  #six .floatingObj:nth-child(4),
+  #six .floatingObj:nth-child(5) {
+    display: none;
+  }
+
+  #six .container {
+    width: 100%;
+    grid-template-columns: 100%;
+    padding-top: 0px;
+  }
+
+  #six .container .contact .content {
+    margin-left: 20px;
+  }
+
+  #six .container .contact h1 {
+    font-size: 50px;
+  }
+
+  #six .container .contact p {
+    font-size: 16px;
+  }
+
+  #six .container .form {
+    padding: 6% 10%;
+  }
+
+  #six .container .form input[type="submit"] {
+    font-size: 12px;
+    width: 140px;
+  }
+}
+
+/* 
+*
+*
+*
+*
+*
+*
+*/
+
+@media only screen and (max-width: 650px) {
+  #three .container .skillsType2 {
+    left: -15% !important;
+  }
+  #four .container .project h1 {
+    font-size: 50px;
+  }
+  #four .container .project p {
+    font-size: 12px;
+  }
+
+  #four .container .project .buttons a {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  #four .container .project .content {
+    margin-left: 20px;
+  }
+
+  #four .container .projectsPic .image img {
+    max-width: 300px;
+  }
+
+  #four .container .projectsPic .image img:nth-child(4) {
+    max-width: 150px;
+    margin-left: 20px;
+  }
+
+  #five h1 {
+    font-size: 40px;
+  }
+
+  #six .container .form input,
+  #six .container .form textarea {
+    margin-bottom: 20px;
+    padding: 5px 2px;
+  }
+
+  header {
+    padding: 10px;
+    width: calc(100% - 20px);
+  }
+  header nav ul li:nth-child(4),
+  header nav ul li:nth-child(3),
+  header nav ul li:nth-child(2) {
+    display: none;
+  }
+}
+
+/* 
+*
+*
+*
+*
+*
+*
+*/
+
+@media only screen and (max-width: 550px) {
+  .vert-nav {
+    display: none;
+  }
+  #one .container .intro {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: left;
+  }
+  #one .container .name1 h3,
+  #one .container .name1 h4 {
+    font-size: 18px;
+  }
+
+  #one .container .name1 h4 {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  #one .container .name1 p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  #one .container .name1 h3 {
+    height: 24px;
+  }
+
+  #typer {
+    height: 24px;
+  }
+
+  #slide1SVG {
+    width: 80% !important;
+    margin-top: -50px;
+    margin-bottom: -20px;
+  }
+
+  #one .floatingObj:nth-child(2) {
+    left: 60%;
+    top: 10%;
+  }
+
+  #two .container .about p {
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+  #two .container .photo .image img {
+    display: none;
+  }
+  #two .floatingObj:nth-child(1) {
+    display: none;
+  }
+  #two .floatingObj:nth-child(2) {
+    display: none;
+  }
+  #two .floatingObj:nth-child(3) {
+    display: none;
+  }
+  #two .floatingObj:nth-child(4) {
+    display: none;
+  }
+  #two .floatingObj:nth-child(5) {
+    display: none;
+  }
+
+  #two .container .photo .image {
+    margin-top: 0px;
+  }
+
+  #two .container .photo .image img {
+    height: 50%;
+  }
+
+  #two .container .about {
+    margin-top: 00px;
+  }
+
+  #three .container .skillDots .skillDot span {
+    background-color: white;
+  }
+
+  #three .container .skillDots .skillDot img {
+    display: none;
+  }
+
+  #three .container .skillDots .skillDot {
+    width: 50px;
+    height: 3px;
+    border-radius: 10px;
+    left: 20%;
+  }
+
+  #three .container .skillDots .skillDot span {
+    width: 1px;
+    height: 1px;
+    transform: rotate(-0deg);
+  }
+
+  #three .container .skillDots .skillDot span::after {
+    content: attr(data-name);
+    position: relative;
+    font-size: 16px;
+    top: -24px;
+    left: 0px;
+    z-index: 15;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(1) {
+    top: 70%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(2) {
+    top: 75%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(3) {
+    top: 40%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(4) {
+    top: 45%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(5) {
+    top: 50%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(6) {
+    top: 55%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(7) {
+    top: 60%;
+    left: 15%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(8) {
+    top: 65%;
+    left: 15%;
+  }
+
+  /* ---------------------------------------------- */
+
+  #three .container .skillDots .skillDot:nth-child(9) {
+    top: 40%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(10) {
+    top: 45%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(11) {
+    top: 50%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(12) {
+    top: 55%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(13) {
+    top: 60%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(14) {
+    top: 65%;
+    left: 65%;
+  }
+
+  #three .container .skillDots .skillDot:nth-child(15) {
+    top: 70%;
+    left: 65%;
+  }
+
+  #three .container .skillsType {
+    word-wrap: normal;
+    font-size: 20px;
+    top: 30%;
+  }
+  #three .container .skillsType1 {
+    left: 95%;
+  }
+  #three .container .skillsType2 {
+    left: -45% !important;
+    transform: translate(-3%, -50%) !important;
+    z-index: 15 !important;
+  }
+
+  #four .container .projectsPic .image img {
+    max-width: 240px;
+  }
+
+  #four .container .projectsPic .image img:nth-child(4) {
+    max-width: 140px;
+    margin-left: 0px;
+  }
+
+  #four .container {
+    row-gap: 20px;
+  }
+
+  #five h1 {
+    margin-left: 38%;
+    font-size: 1.5rem;
+  }
+
+  #five .container .box {
+    width: 25%;
+    height: 170px;
+    transform: none;
+    margin: 10px 0;
+  }
+
+  #five .container .box .para {
+    left: 48%;
+    width: 80%;
+    font-size: 12px;
+    margin-top: -2%;
+  }
+
+  #five .container .box .title {
+    top: 15%;
+    font-size: 16px;
+  }
+
+  #five .container .box:nth-child(3) .title {
+    top: 5%;
+  }
+
+  #five .container .grids {
+    margin-top: 10px;
+  }
+
+  #six .container .contact h1 {
+    font-size: 40px;
+  }
+
+  #six .container .contact p {
+    font-size: 12px;
+  }
+}
+
+/* 
+*
+*
+*
+*
+*
+*
+*/
+
+@media only screen and (max-width: 550px) {
+  #two .container .about .buttons a {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  #two .container .about {
+    margin-top: -50px;
+  }
+}

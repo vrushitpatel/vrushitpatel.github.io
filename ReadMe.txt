@@ -45,25 +45,34 @@ Extra
 08. Project - Link Project Page ✅
 09. Red - Content ✅
 10. Red - 3 Photos ✅
-11. Contact - PHP Contact Form Mail ----------
+11. Contact - PHP Contact Form Mail ✅
 12. Contact - Content ✅
 13. Header Nav-Bar Content ✅
-14. Project Page - Photos ----------
+14. Project Page - Photos ✅
 15. Project Page - Content ✅
 16. Project Page - Link ✅
 17. Software Intern Page ----------
-18. Hackathon Page ----------
-19. College Committee ----------
+18. Hackathon Page ✅
+19. College Committee ✅
 20. Coming Soon Page ✅
 21. PreLoader ✅
 22. Red Page Animation ✅
+23. Responsive - Home Slide
+24. Responsive - About Slide
+25. Responsive - Skill Slide
+26. Responsive - Project Slide
+27. Responsive - MAM Slide
+28. Responsive - Contact Slide
+29. Responsive - Project Page
+30. Responsive - Layout Page
+31. Responsive - Resume Page
 
 
 
 Projects:
   MedBay ✅
-  Hack-n-Code 
-  Self Driving
+  Hack-n-Code ✅
+  Self Driving ✅
   Bar Stock Exchange ✅
   Zomato ✅
   OS Project
