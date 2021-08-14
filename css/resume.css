@@ -95,6 +95,7 @@ header {
   transform-style: preserve-3d;
 }
 
+
 #three .container .box {
   position: relative;
   width: 350px;
@@ -193,4 +194,46 @@ header {
   transition: 0.5s;
   transform-style: preserve-3d;
   transform: translate3d(-50%, -50%, 0px);
+}
+
+@media only screen and (max-width: 1024px) {
+  .cursor {
+    display: none;
+  }
+
+  .cursor-inner {
+    display: none;
+  }
+
+  
+  embed {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header {
+    padding: 20px;
+    width: calc(100% - 40px);
+  }
+
+  header nav ul li:nth-child(4),
+  header nav ul li:nth-child(3),
+  header nav ul li:nth-child(2) {
+    display: none;
+  }
+  
+  embed {
+    height: 80vh;
+  }
+
+  #three h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .vert-nav {
+    display: none;
+  }
 }

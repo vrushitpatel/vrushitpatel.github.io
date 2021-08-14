@@ -207,6 +207,11 @@
     grid-row: unset;
     grid-column: unset;
   }
+
+  #six .container{
+    column-gap: 1%;
+    grid-template-columns: 49% 50%;
+  }
 }
 
 /* 
@@ -419,6 +424,12 @@
 */
 
 @media only screen and (max-width: 650px) {
+
+  #one .floatingObj:nth-child(3),
+  #one .floatingObj:nth-child(4) {
+    display: none;
+  }
+
   #three .container .skillsType2 {
     left: -15% !important;
   }
@@ -683,8 +694,8 @@
   }
 
   #four .container .projectsPic .image img:nth-child(4) {
-    max-width: 140px;
-    margin-left: 0px;
+    max-width: 110px;
+    margin-left: 50px;
   }
 
   #four .container {

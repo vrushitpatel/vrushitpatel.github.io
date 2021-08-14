@@ -119,7 +119,7 @@ header {
   text-align: center;
   color: rgb(255, 255, 255);
   font-weight: 800;
-  font-size: 2em;
+  font-size: 1.5em;
   background-color: #ff0032;
   text-shadow: 3px 3px #3636362d;
   transform-style: preserve-3d;
@@ -201,4 +201,78 @@ header {
   transition: 0.5s;
   transform-style: preserve-3d;
   transform: translate3d(-50%, -50%, 0px);
+}
+
+
+@media only screen and (max-width: 1250px) {
+  #three .container .grids {
+    width: auto;
+  }
+
+  #three h1 {
+    text-align: center;
+    margin-top: 75px;
+  }
+
+  #three .floatingObj:nth-child(2),
+  #three .floatingObj:nth-child(3),
+  #three .floatingObj:nth-child(4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #three .container .box {
+    margin: 20px 20px 30px
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cursor {
+    display: none;
+  }
+
+  .cursor-inner {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header {
+    padding: 20px;
+    width: calc(100% - 40px);
+  }
+  header nav ul li:nth-child(4),
+  header nav ul li:nth-child(3),
+  header nav ul li:nth-child(2) {
+    display: none;
+  }
+
+  #three h1 {
+    font-size: 45px;
+  }
+
+  #three .container .grids {
+    margin: 15px auto 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .vert-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #three .container .box img,
+  #three .container .box {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #three .container .box img,
+  #three .container .box {
+    width: 250px;
+  }
 }

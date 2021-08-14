@@ -57,27 +57,32 @@ Extra
 20. Coming Soon Page ✅
 21. PreLoader ✅
 22. Red Page Animation ✅
-23. Responsive - Home Slide
-24. Responsive - About Slide
-25. Responsive - Skill Slide
-26. Responsive - Project Slide
-27. Responsive - MAM Slide
-28. Responsive - Contact Slide
-29. Responsive - Project Page
+23. Responsive - Home Slide ✅
+24. Responsive - About Slide ✅
+25. Responsive - Skill Slide ✅
+26. Responsive - Project Slide ✅
+27. Responsive - MAM Slide ✅
+28. Responsive - Contact Slide ✅
+29. Responsive - Project Page ✅
 30. Responsive - Layout Page
-31. Responsive - Resume Page
+31. Responsive - Resume Page ✅
+32. Custom Spelling ✅
+33. Responsive - Home Page Polo ✅
+34. Responsive - MAM Next Previous ✅
+35. Add Social Sites ✅
+36. Project Page Content ✅
 
 
 
 Projects:
-  MedBay ✅
-  Hack-n-Code ✅
-  Self Driving ✅
   Bar Stock Exchange ✅
+  MedBay ✅
+  Self Driving ✅
+  Hack-n-Code ✅
   Zomato ✅
-  OS Project
   Whatsinthemenu ✅ ----------
   HV Design ✅
+  OS Project
 
 
 Skills: 
