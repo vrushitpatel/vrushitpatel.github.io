@@ -18,6 +18,8 @@
 
   #three .skillsH1 {
     top: -10%;
+    font-size: 210px;
+    left: 15%;
   }
 
   #three .skillsMain {
@@ -208,7 +210,7 @@
     grid-column: unset;
   }
 
-  #six .container{
+  #six .container {
     column-gap: 1%;
     grid-template-columns: 49% 50%;
   }
@@ -264,6 +266,7 @@
   }
   #two .container .about .content {
     margin-left: 20px;
+    margin-top: -30px;
   }
 
   #two .floatingObj:nth-child(3) {
@@ -405,7 +408,7 @@
   }
 
   #six .container .form {
-    padding: 6% 10%;
+    padding: 6% 3%;
   }
 
   #six .container .form input[type="submit"] {
@@ -424,10 +427,21 @@
 */
 
 @media only screen and (max-width: 650px) {
-
   #one .floatingObj:nth-child(3),
   #one .floatingObj:nth-child(4) {
     display: none;
+  }
+
+  #three .skillsH1 {
+    top: 0%;
+    font-size: 100px;
+    left: 15%;
+  }
+
+  #four .container .project h1 span {
+    font-size: 85px;
+    left: 5%;
+    top: -65%;
   }
 
   #three .container .skillsType2 {
@@ -681,10 +695,10 @@
     top: 30%;
   }
   #three .container .skillsType1 {
-    left: 95%;
+    left: 93%;
   }
   #three .container .skillsType2 {
-    left: -45% !important;
+    left: -40% !important;
     transform: translate(-3%, -50%) !important;
     z-index: 15 !important;
   }
@@ -739,6 +753,10 @@
   }
 
   #six .container .contact p {
+    font-size: 12px;
+  }
+
+  #slide6Details2 p {
     font-size: 12px;
   }
 }

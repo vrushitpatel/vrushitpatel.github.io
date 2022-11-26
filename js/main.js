@@ -23,8 +23,11 @@ var slide4Img4 = document.getElementById("slide4Img4");
 // console.log(slide5Boxes);
 
 var slide6Heading = document.getElementById("slide6Heading");
+var slide6Heading2 = document.getElementById("slide6Heading2");
 var slide6Para = document.getElementById("slide6Para");
 var slide6Details = document.getElementById("slide6Details");
+var slide6Details2 = document.getElementById("slide6Details2");
+var contactForm = document.getElementById("contactForm");
 var name1 = document.getElementById("name1");
 var email1 = document.getElementById("email1");
 var msg1 = document.getElementById("msg1");
@@ -75,10 +78,15 @@ function removeall() {
 
   slide6Heading.classList.remove("fadingUp");
   slide6Heading.style.opacity = "0";
+  slide6Heading2.classList.remove("fadingUp");
+  slide6Heading2.style.opacity = "0";
   slide6Para.classList.remove("fadingUp");
   slide6Para.style.opacity = "0";
   slide6Details.classList.remove("fadingUp");
   slide6Details.style.opacity = "0";
+  slide6Details2.classList.remove("fadingUp");
+  slide6Details2.style.opacity = "0";
+  contactForm.style.display = "none";
   name1.classList.remove("fadingUp");
   name1.style.opacity = "0";
   email1.classList.remove("fadingUp");
@@ -176,18 +184,22 @@ function fiveSlide() {
 function sixSlide() {
   slide6Heading.classList.add("fadingUp");
   slide6Heading.style.animationDelay = ".2s";
+  slide6Heading2.classList.add("fadingUp");
+  slide6Heading2.style.animationDelay = ".2s";
   slide6Para.classList.add("fadingUp");
   slide6Para.style.animationDelay = "0.5s";
   slide6Details.classList.add("fadingUp");
   slide6Details.style.animationDelay = "0.7s";
-  name1.classList.add("fadingUp");
-  name1.style.animationDelay = "0.5s";
-  email1.classList.add("fadingUp");
-  email1.style.animationDelay = "0.8s";
-  msg1.classList.add("fadingUp");
-  msg1.style.animationDelay = "1.1s";
-  submit1.classList.add("fadingUp");
-  submit1.style.animationDelay = "1.4s";
+  slide6Details2.classList.add("fadingUp");
+  slide6Details2.style.animationDelay = "0.5s";
+  // name1.classList.add("fadingUp");
+  // name1.style.animationDelay = "0.5s";
+  // email1.classList.add("fadingUp");
+  // email1.style.animationDelay = "0.8s";
+  // msg1.classList.add("fadingUp");
+  // msg1.style.animationDelay = "1.1s";
+  // submit1.classList.add("fadingUp");
+  // submit1.style.animationDelay = "1.4s";
 }
 
 function nextSlide() {
