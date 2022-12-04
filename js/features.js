@@ -5,7 +5,7 @@
 var speed = 200;
 var i = 0;
 // Space Important
-var txt1 = " Associate Consultant VMware.";
+var txt1 = " Assoc. Consultant VMware.";
 var txt2 = " Website Developer.";
 
 function typeWriterF1() {
