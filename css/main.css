@@ -228,7 +228,7 @@ body.project .vertHeader {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-top: 20px;
-  z-index: 5;
+  z-index: 2;
 }
 
 body.project .vertHeader .illustration .outer {
@@ -335,6 +335,22 @@ body.project header .logo a h1 {
   font-size: 40px;
   letter-spacing: 2px;
   margin-top: 12px;
+}
+
+.smallScreen .logo a {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.smallScreen .logo a h1 {
+  margin: 0;
+  font-family: "Condiment", cursive;
+  color: var(--white);
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 body.project header nav ul li a {
@@ -549,10 +565,12 @@ html {
 }
 
 .homePage {
-  background-image: url("../images/Home_Background.jpg");
-  background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+}
+
+.homePage img {
+  width: 100vw;
+  margin-bottom: -5px;
 }
 
 .backTop {
@@ -615,7 +633,7 @@ main.partOne {
 main.partOne .header {
   position: absolute;
   top: -280px;
-  width: 750px;
+  width: 1000px;
 }
 
 main.partOne .header h4 {
@@ -634,7 +652,7 @@ main.partOne .intropara {
   font-weight: 500;
   font-size: 18px;
   color: #ffffff;
-  width: 750px;
+  width: 1000px;
   text-align: justify;
   text-justify: inter-word;
   padding-bottom: 100px;
@@ -649,7 +667,7 @@ main.partOne .introcontent {
 main.partOne .introcontent .loader {
   position: absolute;
   top: 100px;
-  left: 950px;
+  left: 1200px;
   width: 140px;
   height: 140px;
 }
@@ -704,8 +722,8 @@ main.partOne .introcontent .rocket::before {
 main.partOne .introGrid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 160px 140px 120px 170px;
-  grid-template-columns: 160px 140px 120px 170px;
+  -ms-grid-columns: 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
   -webkit-column-gap: 60px;
   column-gap: 60px;
   position: relative;
@@ -785,7 +803,7 @@ main.partOne .aboutPage p {
   font-weight: 300;
   font-size: 18px;
   color: #ffffff;
-  width: 850px;
+  width: 1000px;
   text-align: justify;
   line-height: 1.5;
   padding-bottom: 100px;
@@ -913,11 +931,18 @@ main.partOne .aboutPage .platformLOGO li:nth-child(3):hover span {
   background-color: #d80041;
 }
 
+.imageGrid {
+  display: grid;
+  grid-template-columns: 48% 48% 4%;
+  column-gap: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
 main.partOne .aboutPage .aboutIMG {
   display: block;
   margin: 0 auto;
-  width: 75%;
-  padding: 50px;
+  width: 100%;
 }
 
 main.partOne .aboutPage .aboutGrid {
@@ -1047,7 +1072,7 @@ main.partOne .footer .contact h2 {
 }
 
 main.partOne .footer .contact a {
-  width: 160px;
+  width: 165px;
   text-decoration: none;
   color: #ffffff;
   font-size: 18px;
@@ -1277,10 +1302,7 @@ main.partTwo .designProcess .divideDIV .contentDIV p {
   display: none;
 }
 
-@media screen and (max-width: 1450px) {
-  .introcontent {
-    display: none;
-  }
+@media screen and (max-width: 1650px) {
   .introcontent .loader {
     display: none;
   }
@@ -1296,6 +1318,12 @@ main.partTwo .designProcess .divideDIV .contentDIV p {
   .rotate3D {
     display: none;
   }
+  main.partOne .conclusion p {
+    margin: 20px 200px 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 1450px) {
   .quote {
     width: 700px;
     margin: 100px 0px 0 0 !important;
@@ -1316,6 +1344,20 @@ main.partTwo .designProcess .divideDIV .contentDIV p {
 }
 
 @media screen and (max-width: 1350px) {
+  main.partOne .header,
+  main.partOne .intropara,
+  main.partOne .aboutPage h1,
+  main.partOne .aboutPage p {
+    width: 750px;
+  }
+
+  main.partOne .introGrid {
+    -ms-grid-columns: 160px 160px 160px 160px;
+    grid-template-columns: 160px 160px 160px 160px;
+    -webkit-column-gap: 60px;
+    column-gap: 60px;
+  }
+
   .aboutPage .aboutGrid {
     -ms-grid-columns: 750px auto !important;
     grid-template-columns: 750px auto !important;
@@ -1382,6 +1424,7 @@ main.partTwo .designProcess .divideDIV .contentDIV p {
     position: absolute;
     top: 0;
     left: 0;
+    background-color: #171717;
   }
   .smallScreen h2 {
     position: absolute;
@@ -1393,7 +1436,7 @@ main.partTwo .designProcess .divideDIV .contentDIV p {
   }
   .smallScreen .div {
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

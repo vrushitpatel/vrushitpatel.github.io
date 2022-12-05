@@ -6,10 +6,10 @@ window.onscroll = function () {
   const socialSpan = social.getElementsByTagName("span");
   const iSpan = social.getElementsByTagName("i");
   const part2 = document.getElementById("partTwo");
+  const logo = document.getElementById("LogotoHome");
 
   let top = window.scrollY;
-  
-  
+
   // ---------------------------
   if (top >= 1000) {
     backTop.style.display = "inline-block";
@@ -19,63 +19,74 @@ window.onscroll = function () {
     backTop.classList.remove("comeIn");
     backTop.classList.add("goOut");
 
-    setTimeout(function() {
+    setTimeout(function () {
       backTop.style.display = "none";
     }, 250);
   }
 
-  
   // ---------------------------
-  if(part2.offsetTop - top <= 586 && (part2.offsetTop + part2.offsetHeight) - top >= 590) {
+  if (
+    part2.offsetTop - top <= 586 &&
+    part2.offsetTop + part2.offsetHeight - top >= 590
+  ) {
     vartLI[4].style.color = "#000000";
     underline[4].style.backgroundColor = "#000000";
-  }
-  else {
+  } else {
     vartLI[4].style.color = "#ffffff";
     underline[4].style.backgroundColor = "#ffffff";
   }
-  if(part2.offsetTop - top <= 486 && (part2.offsetTop + part2.offsetHeight) - top >= 490) {
+  if (
+    part2.offsetTop - top <= 486 &&
+    part2.offsetTop + part2.offsetHeight - top >= 490
+  ) {
     vartLI[3].style.color = "#000000";
     underline[3].style.backgroundColor = "#000000";
-  }
-  else {
+  } else {
     vartLI[3].style.color = "#ffffff";
     underline[3].style.backgroundColor = "#ffffff";
   }
-  if(part2.offsetTop - top <= 386 && (part2.offsetTop + part2.offsetHeight) - top >= 390) {
+  if (
+    part2.offsetTop - top <= 386 &&
+    part2.offsetTop + part2.offsetHeight - top >= 390
+  ) {
     vartLI[2].style.color = "#000000";
     underline[2].style.backgroundColor = "#000000";
-  }
-  else {
+  } else {
     vartLI[2].style.color = "#ffffff";
     underline[2].style.backgroundColor = "#ffffff";
   }
-  if(part2.offsetTop - top <= 286 && (part2.offsetTop + part2.offsetHeight) - top >= 290) {
+  if (
+    part2.offsetTop - top <= 286 &&
+    part2.offsetTop + part2.offsetHeight - top >= 290
+  ) {
     vartLI[1].style.color = "#000000";
     underline[1].style.backgroundColor = "#000000";
-  }
-  else {
+  } else {
     vartLI[1].style.color = "#ffffff";
     underline[1].style.backgroundColor = "#ffffff";
   }
-  if(part2.offsetTop - top <= 186 && (part2.offsetTop + part2.offsetHeight) - top >= 190) {
+  if (
+    part2.offsetTop - top <= 186 &&
+    part2.offsetTop + part2.offsetHeight - top >= 190
+  ) {
     vartLI[0].style.color = "#000000";
     underline[0].style.backgroundColor = "#000000";
-  }
-  else {
+  } else {
     vartLI[0].style.color = "#ffffff";
     underline[0].style.backgroundColor = "#ffffff";
   }
 
   // ---------------------------
 
-  if(part2.offsetTop - top <= 100 && (part2.offsetTop + part2.offsetHeight) - top >= 50) {
+  if (
+    part2.offsetTop - top <= 100 &&
+    part2.offsetTop + part2.offsetHeight - top >= 50
+  ) {
     vartLI[5].style.color = "#000000";
     underline[5].style.backgroundColor = "#000000";
     vartLI[6].style.color = "#000000";
+    logo.style.color = "#000000";
     underline[6].style.backgroundColor = "#000000";
-    vartLI[7].style.color = "#000000";
-    underline[7].style.backgroundColor = "#000000";
     socialSpan[0].style.backgroundColor = "#000000";
     socialSpan[1].style.backgroundColor = "#000000";
     socialSpan[2].style.backgroundColor = "#000000";
@@ -91,14 +102,12 @@ window.onscroll = function () {
     iSpan[0].style.color = "#000000";
     iSpan[1].style.color = "#000000";
     iSpan[2].style.color = "#000000";
-  }
-  else {
+  } else {
     vartLI[5].style.color = "#ffffff";
     underline[5].style.backgroundColor = "#ffffff";
     vartLI[6].style.color = "#ffffff";
     underline[6].style.backgroundColor = "#ffffff";
-    vartLI[7].style.color = "#ffffff";
-    underline[7].style.backgroundColor = "#ffffff";
+    logo.style.color = "#ffffff";
     socialSpan[0].style.backgroundColor = "#ffffff";
     socialSpan[1].style.backgroundColor = "#ffffff";
     socialSpan[2].style.backgroundColor = "#ffffff";
@@ -123,23 +132,15 @@ window.onscroll = function () {
   const unique = document.getElementById("unique");
   const conclusion = part2.offsetTop + part2.offsetHeight;
 
-  if (conclusion - top <= 250){
+  if (conclusion - top <= 250) {
     innerBar.style.height = "422px";
-  }
-  else if (part2.offsetTop - top <= 250) {
+  } else if (part2.offsetTop - top <= 250) {
     innerBar.style.height = "335px";
-  }
-  else if (unique.offsetTop - top <= -400) {
-    innerBar.style.height = "215px";  
-  }
-  else if (about.offsetTop - top <= -400) {
+  } else if (unique.offsetTop - top <= -400) {
+    innerBar.style.height = "215px";
+  } else if (about.offsetTop - top <= -400) {
     innerBar.style.height = "120px";
-  }
-  else {
+  } else {
     innerBar.style.height = "40px";
   }
-
-
-  
-
 };

@@ -18,20 +18,30 @@
 
   <style>
     .homePage .content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
+      height: 100vh;
+      width: 100vw;
       text-align: center;
       margin: 0 auto;
+      background-color: #121212;
     }
 
     .homePage .content h1 {
       font-family: "Poppins", sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       color: white;
       font-weight: 900;
       font-size: 120px;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
+      .homePage .content h1 {
+        font-weight: 600;
+        font-size: 40px;
+      }
     }
   </style>
 </head>
@@ -49,7 +59,7 @@
 
   <!-- --------------- -->
 
-  <script>
+  <!-- <script>
     window.onbeforeunload = function () {
       window.scrollTo(0, 0);
     };
@@ -85,7 +95,7 @@
         }, 40);
       }
     });
-  </script>
+  </script> -->
 
   <!-- --------------- -->
 
@@ -108,7 +118,7 @@
   </div>
   <header>
     <div class="logo">
-      <a href="#">
+      <a href="./index.html">
         <h1>V P</h1>
       </a>
     </div>
@@ -141,12 +151,12 @@
         <span></span>
         <i class="fab fa-github"></i>
       </a>
-      <a href="mailto:vrushit7506@gmail.com" target="_blank">
+      <a href="https://twitter.com/Vrush1t" target="_blank">
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-        <i class="far fa-envelope"></i>
+        <i class="fab fa-twitter"></i>
       </a>
     </div>
   </header>
