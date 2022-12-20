@@ -20,6 +20,12 @@
 - 💬 Ask me about anything, I am happy to help
 - 📝 Checkout my [Resume](https://github.com/vrushitpatel/vrushitpatel/blob/main/Resume.pdf).
 
+
+<br/>
+<br/><br/>
+<br/>
+
+
 ### Connect with me:
 
 [<img align="left" alt="" width="23px" src="https://img.icons8.com/color/48/000000/internet.png" />][website]
@@ -28,8 +34,6 @@
 <br/>
 <br/>
 
-<br/>
-<br/>
 
 ## 🚀 Languages and Tools:
 
