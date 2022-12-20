@@ -5,7 +5,7 @@
 
 <!-- ![](https://visitor-badge.glitch.me/badge?page_id=vrushitpatel) -->
 
-<img width="400px" style="margin-right: 40px" src='https://github.com/vrushitpatel/vrushitpatel/blob/main/Source%20code.gif' align='left'>
+<img width="400px" style="margin-right: 50px" src='https://thumbs2.imgbox.com/1e/dd/05T4bdzE_t.jpg' align='left'>
 
 <br/>
 <br/>
@@ -22,10 +22,9 @@
 
 ### Connect with me:
 
-[<img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-
+[<img align="left" alt="" width="23px" src="https://img.icons8.com/color/48/000000/internet.png" />][website]
+[<img align="left" alt="Vrushit Patel | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="Vrushit Patel | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 <br/>
 <br/>
 
