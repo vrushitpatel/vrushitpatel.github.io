@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+*
+*
+*
+*
+* Vrushit Patel Medcial Website
+* Website Development Project
+* Github
+*
+*
+*
+*
+-->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/8c86c20e06.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../css/main.css" />
+  <meta name="description"
+    content="MedBay is all about finding the best doctors and hospitals in our surrounding areas. Medbay is a Wesbite Development Project by Vrushit Patel." />
+  <title>Medbay | Vrushit Patel</title>
+  <link rel="shortcut icon" type="image/jpg" href="../images/Logo.png" />
+</head>
+
+<body class="project">
+  <!-- --------------- -->
+
+  <script src="../js/onscroll.js"></script>
+
+  <div class="backTop" id="backTop">
+    <div>
+      <a href="#"><span><img src="../images/upload.png" alt="Vrushit Patel Medcial Website LinkedIn" /></span></a>
+    </div>
+  </div>
+
+  <!-- --------------- -->
+
+  <section class="preloader">
+    <div class="loader1"></div>
+    <div class="count"></div>
+  </section>
+
+  <!-- <script>
+    window.onbeforeunload = function () {
+      window.scrollTo(0, 0);
+    };
+
+    $(document).ready(function () {
+      var body = document.getElementsByTagName("body");
+      $(this).scrollTop(0);
+      body[0].setAttribute("style", "overflow-y: hidden !important;");
+      var url = window.location.href;
+      var lastPart = url.lastIndexOf("#");
+      if (lastPart != -1) {
+        $(".loader1").css("display", "none");
+        $(".preloader").css("display", "none");
+        body[0].setAttribute("style", "overflow-y: scroll !important;");
+      } else {
+        loading();
+      }
+      function loading() {
+        var count = 0;
+        var counter = setInterval(function () {
+          if (count < 101) {
+            $(".count").text(count + "%");
+            $(".loader1").css("width", count + "%");
+            count += 10;
+          } else {
+            clearInterval(counter);
+            setInterval(
+              body[0].setAttribute("style", "overflow-y: scroll !important;"),
+              10
+            );
+          }
+        }, 40);
+      }
+    });
+  </script> -->
+
+  <!-- --------------- -->
+
+  <div class="vertHeader">
+    <div class="illustration">
+      <span class="outer">
+        <span class="inner" id="innerBar">
+          <span class="circle"></span>
+        </span>
+      </span>
+    </div>
+    <div class="content">
+      <ul>
+        <li>
+          <a href="#introduction" class="vertLI"><span>01.</span> Introduction <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#about" class="vertLI"><span>02.</span> About <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#unique" class="vertLI">
+            <span>03.</span> Unique Problems To Solve
+            <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#design" class="vertLI">
+            <span>04.</span> The Design
+            <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#conclusion" class="vertLI"><span>05.</span> Conclusion <span class="underline"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header>
+    <div class="logo">
+      <a href="../" id="LogotoHome">
+        <h1>V P</h1>
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="../" class="vertLI">
+            <span>01.</span>Home <span class="underline"></span>
+          </a>
+        </li>
+        <li>
+          <a href="../project" class="vertLI">
+            <span>02.</span>Projects <span class="underline"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="social" id="social">
+      <a href="https://linkedin.com/in/vrushit-patel" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/vrushitpatel" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://twitter.com/Vrush1t" target="_blank">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- --------------- -->
+
+  <div class="homePage">
+    <img src="../images/Individual Projects/Medbay/Medbay-home-bg.jpg" alt="Vrushit Patel Medcial Website LinkedIn">
+  </div>
+  <main class="partOne">
+    <!-- --------------- -->
+
+    <div class="header" id="introduction">
+      <h4>Vrushit Patel</h4>
+      <br /><br />
+      <h1>
+        MedBay is all about finding the best doctors and hospitals in our surrounding areas.
+      </h1>
+      <br />
+    </div>
+    <div class="introcontent">
+      <p class="intropara">
+        MedBay is a medical search engine that provides locals with the medical information they need. It also provides
+        a list
+        of doctors and hospitals in the surrounding areas. The website has a list of doctors, which are sorted by their
+        specialty, and then by proximity to your location. Also, finding the Perfect Hospital has never been easier; the
+        website
+        also has the option to find hospitals in your area, sorted by their proximity to you.
+      </p>
+      <div class="loader">
+        <span style="--i: 1"></span>
+        <span style="--i: 2"></span>
+        <span style="--i: 3"></span>
+        <span style="--i: 4"></span>
+        <span style="--i: 5"></span>
+        <span style="--i: 6"></span>
+        <span style="--i: 7"></span>
+        <span style="--i: 8"></span>
+        <span style="--i: 9"></span>
+        <span style="--i: 10"></span>
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 17"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 20"></span>
+        <div class="rocket"></div>
+      </div>
+    </div>
+    <div class="introGrid">
+      <div class="">
+        <h4>Domain</h4>
+        <ul>
+          <li>Full-Stack Development.</li>
+        </ul>
+      </div>
+      <div class="">
+        <h4>Tools Used</h4>
+        <ul>
+          <li>HTML.</li>
+          <li>CSS.</li>
+          <li>PHP.</li>
+          <li>AJAX.</li>
+          <li>JavaScript.</li>
+        </ul>
+      </div>
+      <div class="">
+        <h4>Month-Year</h4>
+        <ul>
+          <li>September - 2020.</li>
+        </ul>
+        <br />
+        <br />
+        <h4>Timeline</h4>
+        <ul>
+          <li>2 months.</li>
+        </ul>
+      </div>
+      <div class="">
+        <h4>Project Type</h4>
+        <ul>
+          <li>Website Development Project for College.</li>
+        </ul>
+      </div>
+
+      <img class="rotate3D" src="../images/3dRotate1.png" alt="Vrushit Patel Medcial Website LinkedIn" />
+    </div>
+    <br />
+    <br />
+    <div class="quote">
+      <h2>
+        <img src="../images/Quotes.png" alt="VrushitPatel Github" />
+        More than half (54%) of consumers surveyed said the process of finding and choosing a doctor is difficult, up
+        from 50%
+        in 2019. Challenges included limited appointment availability, difficulties finding in-network providers, and
+        the length
+        of time required to find and select a provider.
+      </h2>
+      <br />
+      <br />
+      <br />
+      <h3>
+        <strong>- Forbes</strong><br /><span></span>
+        “Is The Era Of Healthcare Consumerism Finally Here? New Survey Says Yes”
+      </h3>
+    </div>
+
+    <!-- --------------- -->
+
+    <div class="aboutPage" id="about">
+      <h1>Medbay</h1>
+      <p>
+        MedBay is a new website that will help you find the right doctor or hospital for you. It will not only show you
+        where
+        they are located but also show you their specialities. The website has a database of several doctors and
+        hospitals. You
+        can filter by speciality, and location to find the perfect match for your needs. Doctors’ blogs are a great way
+        for
+        patients to stay up-to-date with the latest medical news. They also help doctors share their knowledge with
+        others who
+        might not be in the medical profession or have access to doctors as easily as others do. Medbay has a one-page
+        spread on
+        how to find out if you have Covid-19 and how to book an appointment. The website also has a list of FAQs on the
+        page.
+        MedBay also has an online booking system that provides an easy way to book appointments with doctors. Patients
+        can fill
+        out the form on the website, and then they will be automatically booked for their appointment with their doctor.
+      </p>
+      <div class="imageGrid">
+        <img class="aboutIMG" src="../images/Individual Projects/Medbay/Medbay Home 1.png"
+          alt="Vrushit Patel Medcial Website LinkedIn" />
+        <img class="aboutIMG" src="../images/Individual Projects/Medbay/Medbay Doctors 1.png"
+          alt="Vrushit Patel Medcial Website LinkedIn" />
+      </div>
+
+      <br />
+      <br />
+      <div class="aboutGrid">
+        <div class="left">
+          <h1>Objective</h1>
+          <p>
+            MedBay was created to make it easier for people to find the best doctors and hospitals in their area.
+            MedBay is an online database of all hospitals and doctors in the city of Mumbai. It will find the best
+            doctor for your
+            needs based on what’s important to you - like location and speciality. MedBay also has an online booking
+            system that
+            provides an easy way to book appointments with doctors. Doctors can also write daily blogs and post them on
+            the website
+            so that other people can see their Blogs.
+          </p>
+        </div>
+        <div class="right">
+          <h4>Tools Used</h4>
+          <br />
+          <ul>
+            <li>HTML.</li>
+            <li>CSS.</li>
+            <li>PHP.</li>
+            <li>AJAX.</li>
+            <li>JavaScript.</li>
+          </ul>
+          <br />
+          <br />
+          <h4>Timeline</h4>
+          <br />
+          <ul>
+            <li>2 months.</li>
+          </ul>
+        </div>
+
+        <ul class="platformLOGO">
+          <li>
+            <a href="http://medbay.infinityfreeapp.com/">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fas fa-globe-asia"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/vrushitpatel/MedBay">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fa fa-github"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://youtu.be/GSx6qz_HhL0">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span class="fa fa-youtube"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- --------------- -->
+
+    <div class="uniquePage" id="unique">
+      <h1>Unique Problems To Solve</h1>
+      <div class="uniqueGrid">
+        <div></div>
+        <div class="block">
+          <h3>Finding us the right Doctors and Hospitals.</h3>
+          <br />
+          <p>
+            MedBay will help you find the right doctor or hospital for you based on your needs, not just based on where
+            they are
+            located.
+          </p>
+        </div>
+        <div class="block">
+          <h3>User-friendly & Easy to use.</h3>
+          <br />
+          <p>
+            This app has been designed to be user-friendly, easy to use, and always up-to-date with the latest
+            information about
+            doctors and hospitals.
+          </p>
+        </div>
+        <div class="block">
+          <h3>Doctors’ blogs are a great way to stay up-to-date.</h3>
+          <br />
+          <p>
+            Doctors can also write daily blogs and post them on the website so that other people can see their Blogs.
+            They are a
+            great source of knowledge for patients to read about the latest medical news.
+          </p>
+        </div>
+        <div class="block">
+          <h3>Know more about Covid-19 & book appointments.</h3>
+          <br />
+          <p>
+            Medbay has a one-page spread on how to find out if you have Covid-19 and how to book an appointment. The
+            website also
+            has a list of FAQs on the page.
+          </p>
+        </div>
+        <div class="block">
+          <h3>Booking their appointments with Doctors.</h3>
+          <br />
+          <p>
+            The benefits of using Medbay is that it offers a simple and user-friendly interface, which makes it easy for
+            patients to
+            fill out the form and book their appointments with their doctors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- --------------- -->
+
+  <main class="partTwo" id="partTwo">
+    <div class="designProcess" id="design">
+      <h1>The Design</h1>
+
+      <!-- --------------- -->
+      <!-- ------- Image Div ------- -->
+      <div class="imageGrid">
+        <div class="imageDIV">
+          <img src="../images/Individual Projects/Medbay/Medbay Home 2.png" alt="Vrushit Patel LinkedIn" />
+          <span>Medbay: Here you get easy acces to Blood Banks and can directly Filter Doctor by Specialities.</span>
+        </div>
+        <div class="imageDIV">
+          <img src="../images/Individual Projects/Medbay/Medbay Doctors 3.png" alt="Vrushit Patel LinkedIn" />
+          <span>Medbay: Doctors Filtered by Area & Speciality.s</span>
+        </div>
+      </div>
+
+
+      <!-- --------------- -->
+      <!-- ------- Content Div ------- -->
+      <div class="contentDIV">
+        <h3>Finding the Right Doctor & Hospital.</h3>
+        <p>
+          MedBay is a medical website that provides information about health care, doctors, and hospitals. It also has
+          an online
+          booking system that provides an easy way to book appointments with doctors. It includes a database of doctors
+          and
+          hospitals in different areas. This website was created to be a one-stop shop for people looking for medical
+          care and
+          information about doctors and hospitals in their area.
+        </p>
+      </div>
+
+      <!-- --------------- -->
+      <!-- -------Image - Content Divide ------- -->
+      <div class="divideDIV">
+        <div class="imageDIV">
+          <img src="../images/Individual Projects/Medbay/Medbay Blogs 2.png"
+            alt="Website Development Project VrushitPatel" />
+          <span>Medbay: Doctors can login and Post Blogs, which can be liked by Users.</span>
+        </div>
+
+        <!-- --------------- -->
+
+        <div class="contentDIV">
+          <h3>Doctors Publishing Blogs.</h3>
+          <p>
+            Medbay provides information about different ailments, treatments, and other medical-related topics by
+            providing a blog
+            section where doctors can write about their experiences with patients. This is a good way to get more people
+            engaged in
+            the conversation and it also creates an opportunity for other doctors to learn from their experience. They
+            are also able
+            to share their expertise with others by writing about a new medical technology, a new drug, or a new
+            treatment.
+          </p>
+        </div>
+      </div>
+
+      <!-- --------------- -->
+      <!-- ------- Content - Image Divide ------- -->
+      <div class="divideDIV">
+        <div class="contentDIV">
+          <h3>Booking Appointments with Doctors.</h3>
+          <p>
+            The website is designed to make it easier for people to find the right doctor for their needs and make
+            appointments with
+            them. Clients can fill out the form with their basic information and then select the doctor they want to
+            consult from a
+            list of doctors in their area. Patients can fill out the form on the website, and then they will be
+            automatically booked
+            for their appointment with their doctor.
+          </p>
+        </div>
+
+        <!-- --------------- -->
+
+        <div class="imageDIV">
+          <img src="../images/Individual Projects/Medbay/Medbay Booking Page.png"
+            alt="Website Development Project VrushitPatel" />
+          <span>Medbay: Users can directly Book an Appointment with the specific Doctor.</span>
+        </div>
+      </div>
+
+      <!-- --------------- -->
+      <!-- ------- Image Div ------- -->
+
+      <div class="imageGrid">
+        <div class="imageDIV">
+          <img src="../images/Individual Projects/Medbay/Medbay Covid 2.png" alt="Website Development Project" />
+          <span>Medbay: To know more about Covid-19 and its Symptoms.</span>
+        </div>
+        <div class="imageDIV">
+          <img src="../images/Individual Projects/Medbay/Medbay Hospital 1.png"
+            alt="Vrushit Patel Medcial Website LinkedIn" />
+          <span>Medbay: Lists of Hospital which can be filtered by Area and Specialities.</span>
+        </div>
+      </div>
+
+      <!-- --------------- -->
+    </div>
+  </main>
+
+  <!-- --------------- -->
+
+  <main class="partOne" style="padding-top: 0">
+    <!-- --------------- -->
+
+    <div class="conclusion" id="conclusion">
+      <h1>The Results</h1>
+      <p>
+        Medbay helped me to learn more about JavaScript and AJAX (Asynchronous JavaScript And XML). I learned to create
+        dynamic
+        sections to load up the data without reloading the whole page. Creating animations using JavaScript. Also
+        explored PHP,
+        creating databases and filling up the data using forms on the website. Displaying the filtered data with the
+        help of
+        AJAX and PHP. Also, discovered how to add 360-degree media to the website. Creating a login page for the doctors
+        and
+        writing the blogs which are posted in real-time. Created sessions and cookies to keep their login even if they
+        reload
+        the page.
+      </p>
+      <img class="rotate3D" src="../images/3dRotate1.png" alt="Vrushit Patel Medcial Website LinkedIn" />
+    </div>
+
+    <!-- --------------- -->
+
+    <div class="footer">
+      <div class="contact">
+        <h2>Have a crazy problem that needs solving?</h2>
+        <br />
+        <a href="../"><span><img src="../images/right-arrow1.png"
+              alt="Vrushit Patel Medcial Website LinkedIn" /></span>Contact
+          Me</a>
+      </div>
+
+      <div class="seemore">
+        <div class="left">
+          <h1>See More</h1>
+          <br />
+          <a href="../project"><img src="../images/see-more.jpg" alt="Vrushit Patel Medcial Website LinkedIn" /></a>
+        </div>
+        <div class="right">
+          <h3>Projects</h3>
+          <br />
+          <p>
+            Check out the latest web software development projects I've been working on lately.
+          </p>
+          <br />
+          <a href="../project">More Projects <span></span></a>
+          <br />
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="smallScreen">
+    <div class="logo">
+      <a href="../" id="LogotoHome">
+        <h1>V P</h1>
+      </a>
+    </div>
+    <div class="div">
+      <h3>
+        This Website Is Intended To Be Used On A Device With A Larger
+        Screen.<i class="fas fa-desktop"></i>
+      </h3>
+    </div>
+    <div class="footer"></div>
+  </section>
+
+  <!-- --------------- -->
+</body>
+
+</html>
