@@ -5,8 +5,8 @@
 var speed = 200;
 var i = 0;
 // Space Important
-var txt1 = " Assoc. Consultant VMware.";
-var txt2 = " Website Developer.";
+var txt1 = " AI Engineer.";
+var txt2 = " ML Engineer.";
 
 function typeWriterF1() {
   if (i < txt1.length) {
